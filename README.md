@@ -16,7 +16,8 @@ source env/bin/activate
 
 The following Python libraries need to be installed within the activated environment:
 * flask
-* Flask-SQLAlchemy
+* flask-SQLAlchemy
+* flask-CORS
 * psycopg2
 * requests
 
@@ -52,4 +53,12 @@ The application can be run with flask:
 export FLASK_APP=app
 export FLASK_en=development
 flask run
+```
+Or by running the script in terminal:
+```
+python3 main.py
+```
+The tests can also be run in terminal:
+```
+python3 tests.py
 ```
